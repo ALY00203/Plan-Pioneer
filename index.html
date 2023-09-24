@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlanPioneer</title>
+
+    <!-- fonst icons -->
+    <link rel="stylesheet" href="content/css/vendors/all.min.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="content/css/vendors/bootstrap.min.css" />
+
+    <!-- Main file  -->
+    <link rel="stylesheet" href="./content/css/style.css" />
+  </head>
+  <body>
+    <!-- Start Upper navbar -->
+    <div class="upper-navbar py-2 main-bg d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="upper-navbar__conetnt d-flex justify-content-between">
+              <div class="d-flex gap-2 align-items-center">
+                <span class="upper-navbar__conetnt__icon">
+                  <i class="fa-regular fa-clock text-white"></i>
+                </span>
+                <span class="upper-navbar__conetnt__link text-white">
+                  Mon-Fri 10:00-19:00
+                </span>
+              </div>
+              <!-- ./ -->
+              <div class="d-flex gap-2 align-items-center">
+                <span class="upper-navbar__conetnt__icon">
+                  <i class="fa-solid fa-phone text-white"></i>
+                </span>
+                <span class="upper-navbar__conetnt__link text-white">
+                  240-480-9600
+                </span>
+              </div>
+              <!-- ./ -->
+            </div>
+            <!-- ./conetnt -->
+          </div>
+          <!-- ./col-4 -->
+          <div class="col-lg-8">
+            <ul
+              class="d-flex justify-content-end gap-3 list-unstyled m-0 upper-navbar__conetnt__list"
+            >
+              <li>
+                <a href="#" class="upper-navbar__conetnt__list__link">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="upper-navbar__conetnt__list__link">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="upper-navbar__conetnt__list__link">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="upper-navbar__conetnt__list__link">
+                  <i class="fa-brands fa-pinterest-p"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- ./col-8 -->
+        </div>
+        <!-- ./row -->
+      </div>
+      <!-- ./container -->
+    </div>
+    <!-- End Upper navbar -->
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <span class="main-color">Plan</span>
+          <span class="sub-color">Pioneer</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-uppercase"
+                aria-current="page"
+                href="#"
+              >
+                <small class="main-color">01</small>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#about">
+                <small class="main-color">02</small>
+                <span>About</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#services">
+                <small class="main-color">03</small>
+                <span>Services</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#projects">
+                <small class="main-color">04</small>
+                <span>Projects</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase" href="#contact">
+                <small class="main-color">05</small>
+                <span>Contact</span>
+              </a>
+            </li>
+          </ul>
+          <!-- ./list -->
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Start Header -->
+    <header>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide h-100"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100 slider-img-one">
+            <div class="container h-100">
+              <div class="row align-items-end h-100 pb-5">
+                <div class="col-lg-6">
+                  <small>
+                    <span class="text-white text-uppercase"
+                      >SUPPORTING NEW PROJECT</span
+                    >
+                    <span class="main-color">01/05</span>
+                  </small>
+                  <h2 class="mt-2 mb-4 carousel-item__title">
+                    <span class="text-white">Strategic Planning for your</span>
+                    <span class="main-color"> next project </span>
+                  </h2>
+                  <div class="carousel-item__btns">
+                    <button class="main-btn me-3" id="getStartedButton-12">Get Started</button>
+                    <button
+                      class="carousel-item__btns__ply-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item slider-img-tow h-100">
+            <div class="container h-100">
+              <div class="row align-items-end h-100 pb-5">
+                <div class="col-lg-6">
+                  <small>
+                    <span class="text-white text-uppercase"
+                      >SUPPORTING NEW PROJECT</span
+                    >
+                    <span class="main-color">01/05</span>
+                  </small>
+                  <h2 class="mt-2 mb-4 carousel-item__title">
+                    <span class="text-white">Strategic Planning for your</span>
+                    <span class="main-color"> next project </span>
+                  </h2>
+                  <div class="carousel-item__btns">
+                    <button class="main-btn me-3" id="getStartedButton-12">Get Started</button>
+                    <button
+                      class="carousel-item__btns__ply-btn"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      <i class="fa-solid fa-play"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="silder-btns">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <span class="silder-btns__icon">
+              <i class="fa-solid fa-chevron-left fa-2x"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="silder-btns__icon">
+              <i class="fa-solid fa-chevron-right fa-2x"></i>
+            </span>
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start About -->
+    <section id="about" class="about py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-3 mb-lg-0">
+            <div
+              class="about__image text-white h-100 d-flex align-items-end py-4 px-3 border-radius-18"
+            >
+              <div>
+                <h2>William Smith, CEO</h2>
+                <p class="fw-bold lh-1 fs-6 text-white ">
+                  Our CEO, is a visionary leader dedicated to driving innovation and guiding our company toward a prosperous future.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about__content">
+              <div class="shadow bg-white px-3 py-4 border-radius-18">
+                <small>
+                  <span>
+                    ABOUT
+                    <span class="sub-color"> 02/05 </span>
+                  </span>
+                </small>
+                <h2 class="fw-bold">Consulting Agency</h2>
+                <h5>Helping small businesses since 2001</h5>
+
+                <p class="text-black-50 text-start">
+At Plan Pioneer for Business, we're your partners in innovation and success. We understand that every business journey begins with a well-crafted plan, and that's where we come in.
+Our mission is to empower entrepreneurs, startups, and established businesses alike with the knowledge, tools, and strategies needed to pave the way for their success. With years of experience in the business world, we've learned that every venture starts with a vision, but it's the plan that turns dreams into reality.
+Our team of experts is passionate about helping businesses thrive. Whether you're looking for guidance on strategic planning, seeking creative ideas to boost your business, or simply in need of a supportive community to share your journey with, Plan Pioneer for Business is here to guide you every step of the way.
+We believe in the power of innovation, collaboration, and determination, and we're dedicated to helping you pioneer your path to success. Join us on this exciting journey, and together, we'll plan, pioneer, and prosper.
+Welcome to Plan Pioneer for Business – Where Your Business Dreams Take Flight!
+</p>
+                <p class="text-black-50">
+                  You may support a little PayPal donation to Tooplate by
+                  visiting our contact page. Thank you.
+                </p>
+              </div>
+              <div class="d-flex gap-3 mt-4 flex-lg-row flex-column">
+                <div class="w-100 sub-bg p-4 border-radius-18">
+                  <h4 class="text-white">We're growing business </h4>
+                  <button class="main-btn main-btn--bg">Join us</button>
+                </div>
+                <div class="w-100 main-bg p-4 text-white border-radius-18">
+                  <h4>How did you Hear about us?</h4>
+                  <p>You can trust us completely</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+    <!-- start we grow together  -->
+    <div class="container-fluid grow">
+      <div class="row w-100 d-flex justify-content-end align-items-center text-start">
+        <div class="col-lg-6 col-md-12  w-75 px-lg-5">
+          <!-- Text Content -->
+          <p class="w-100 grow-p text-center "> <span class="sub-color">delivering</span> <br> the promise</p>
+        </div>
+
+      </div>
+    </div>
+        <!-- end we grow together  -->
+    <div class="container-fluid p-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 d-flex align-items-center ">
+          <!-- Left Column with Text -->
+          <div class="w-100 text-start">
+            <p class="display-4 fw-bolder">Take Your Business To <br><span class="sub-color">Another Level</span></p>
+            <p class="lh-2 fs-5">"Unlock the potential for your business to soar to new heights with our comprehensive suite of innovative solutions and expert guidance. We understand the challenges you face in today's competitive landscape, and we're here to help you navigate them. Our tailored strategies and cutting-edge technologies will empower you to streamline operations, reach a wider audience, and achieve unprecedented success. Don't settle for the status quo; take your business to another level with us as your trusted partner in growth."</p>
+            <p class="lh-2 fs-5">"Elevating your business to another level is not just a possibility; it's our commitment. With a deep understanding of market dynamics, a keen eye for opportunities, and a toolbox filled with the latest tools and strategies, we're ready to propel your business to new horizons. Our dedicated team will work closely with you, ensuring that your vision becomes a reality. Together, we'll break through barriers, drive innovation, and achieve unparalleled success in your industry. Let's embark on this journey to success together."</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <!-- Right Column with Image -->
+          <img src="./content/asstes/images/img-callback.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    
+    <!-- Start service -->
+    <section id="services" class="service py-5">
+      <div class="title text-center mb-5">
+        <small>
+          <span class="text-uppercase text-black-50">SERVICES</span>
+          <span class="sub-color">03/05</span>
+        </small>
+        <h2>How can we help you?</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-3 mb-lg-0">
+            <div
+              class="nav flex-column nav-pills me-3"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active rounded-0 text-start p-4 mb-3"
+                id="v-pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-home"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+              >
+                <h2 class="service__tabs__title">Business Consulting</h2>
+                <p class="service__tabs__text">
+                  "Our business consulting services are designed to help companies identify opportunities for growth, streamline operations, and achieve sustainable success."</p>
+              </button>
+              <button
+                class="nav-link rounded-0 text-start p-4 mb-3"
+                id="v-pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+              >
+                <h2 class="service__tabs__title">Strategy Planning</h2>
+                <p class="service__tabs__text">
+                  "Strategic planning is a vital process that involves setting clear goals, defining actionable strategies, and aligning resources to guide an organization toward its long-term vision and success."</p>
+              </button>
+              <button
+                class="nav-link rounded-0 text-start p-4"
+                id="v-pills-messages-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+              >
+                <h2 class="service__tabs__title">Effective Strategies for Business Growth</h2>
+                <p class="service__tabs__text">
+                  "Discover proven and innovative strategies that drive business growth. Explore essential principles, techniques, and insights to develop a roadmap for sustainable expansion, increased profitability, and long-term success in today's dynamic marketplace."</p>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-home"
+                role="tabpanel"
+                aria-labelledby="v-pills-home-tab"
+              >
+                <img
+                  src="content/asstes/images/jason-goodman-MUZFKa_mttU-unsplash.jpg"
+                  alt="services"
+                />
+                <div class="mt-4">
+                  <h3>Introduction to Business Consulting</h3>
+                  <p class="text-black-50 text-start">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut dolore
+                  </p>
+                  <ul class="service__list text-start">
+                    <li>
+                      <span>Helping small businesses </span>
+                    </li>
+                    <li>
+                      <span>Lorem ipsum dolor sit amet </span>
+                    </li>
+                    <li>
+                      <span>Business Strategy and Management </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-profile"
+                role="tabpanel"
+                aria-labelledby="v-pills-profile-tab"
+              >
+                <img
+                  src="content/asstes/images/services/2.jpg"
+                  alt="services"
+                />
+                <div class="mt-4">
+                  <h3>Introduction to Business Consulting</h3>
+                  <p class="text-black-50">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut dolore
+                  </p>
+                  <ul class="service__list text-start">
+                    <li>
+                      <span>Helping small businesses </span>
+                    </li>
+                    <li>
+                      <span>Lorem ipsum dolor sit amet </span>
+                    </li>
+                    <li>
+                      <span>Business Strategy and Management </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-messages"
+                role="tabpanel"
+                aria-labelledby="v-pills-messages-tab"
+              >
+                <img
+                  src="content/asstes/images/services/3.jpg"
+                  alt="services"
+                />
+                <div class="mt-4">
+                  <h3>Introduction to Business Consulting</h3>
+                  <p class="text-black-50">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut dolore
+                  </p>
+                  <ul class="service__list text-start">
+                    <li>
+                      <span>Helping small businesses </span>
+                    </li>
+                    <li>
+                      <span>Lorem ipsum dolor sit amet </span>
+                    </li>
+                    <li>
+                      <span>Business Strategy and Management </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End service -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+      <!-- Image -->
+      <div class="w-100">
+        <img src="./content/asstes/images/img-experience.png" alt="" class="img-fluid">
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-12">
+      <!-- Text Content -->
+      <div class="d-flex flex-column">
+        <p class="display-4 fw-bolder">30 Years of <br><span class="sub-color">Experience</span></p>
+        <p class="lh-2 fs-5">Business is a multifaceted and dynamic field that encompasses a wide range of activities and ventures. At its core, business involves the creation, exchange, and management of goods, services, and resources to fulfill the needs and desires of individuals, organizations, and societies. It is driven by the fundamental principles of supply and demand, competition, and innovation, and it plays a pivotal role in shaping economies and driving progress.</p>
+        <p class="lh-2 fs-5">In the modern globalized world, businesses come in various sizes and forms, from small startups to multinational corporations, and they operate in diverse sectors such as technology, finance, healthcare, and manufacturing. Successful businesses not only strive for profitability but also prioritize ethical practices, sustainability, and societal impact. The business landscape is ever-evolving, influenced by technological advancements, market trends, and shifting consumer behaviors. Adaptability and strategic planning are crucial for businesses to thrive in this dynamic environment. Ultimately, business is about creating value, solving problems, and contributing to the betterment of society, making it an essential driver of economic growth and human progress.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Start Brands -->
+    <section id="projects" class="py-5 brands">
+      <div class="title text-center mb-5">
+        <small>
+          <span class="text-uppercase text-black-50">PROJECTS</span>
+          <span class="sub-color">03/05</span>
+        </small>
+        <h2>Some of Our Support for Projects</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-3">
+            <div
+              class="brands__card bg-one border-radius-18 d-flex align-items-end"
+            >
+              <div
+                class="d-flex w-100 p-4 align-items-center justify-content-between"
+              >
+                <div class="brands__card__text">
+                  <small class="brands__card__sub main-color"
+                    >IT and Software</small
+                  >
+                  <h4 class="brands__card__title">TechRevolution-World 2025</h4>
+                </div>
+                <span class="brands__card__icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-lg-4 mb-3">
+            <div
+              class="brands__card bg-scape border-radius-18 d-flex align-items-end"
+            >
+              <div
+                class="d-flex w-100 p-4 align-items-center justify-content-between"
+              >
+                <div class="brands__card__text">
+                  <small class="brands__card__sub main-color"
+                    >Implementing</small
+                  >
+                  <h4 class="brands__card__title">GreenScape Sustainability</h4>
+                </div>
+                <span class="brands__card__icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-lg-4 mb-3">
+            <div
+              class="brands__card bg-cus border-radius-18 d-flex align-items-end"
+            >
+              <div
+                class="d-flex w-100 p-4 align-items-center justify-content-between"
+              >
+                <div class="brands__card__text">
+                  <small class="brands__card__sub main-color"
+                    >prioritize customer</small
+                  >
+                  <h4 class="brands__card__title">Customer-Centric Excellence</h4>
+                </div>
+                <span class="brands__card__icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-lg-8 mb-3 mb-lg-0">
+            <div
+              class="brands__card bg-glo border-radius-18 d-flex align-items-end"
+            >
+              <div
+                class="d-flex w-100 p-4 align-items-center justify-content-between"
+              >
+                <div class="brands__card__text">
+                  <small class="brands__card__sub main-color"
+                    >international markets</small
+                  >
+                  <h4 class="brands__card__title">Global Market Expansion</h4>
+                </div>
+                <span class="brands__card__icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+          <div class="col-lg-4 mb-3 mb-lg-0">
+            <div
+              class="brands__card bg-cyper border-radius-18 d-flex align-items-end"
+            >
+              <div
+                class="d-flex w-100 p-4 align-items-center justify-content-between"
+              >
+                <div class="brands__card__text">
+                  <small class="brands__card__sub main-color"
+                    >IT, Cybersecurity</small
+                  >
+                  <h4 class="brands__card__title">Cybersecurity Fortification</h4>
+                </div>
+                <span class="brands__card__icon">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+        </div>
+      </div>
+    </section>
+    <!-- End Brands -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">subscribed successfully</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">congratulations you have just started your journey </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- names -->
+    <section class="trusted-section py-5  ">
+      <h1 class="w-100 p-3 fw-bold ">trusted by some big names</h1>
+      <div class="container main-bg">
+        <div class="row ">
+          <!-- Customer 1 -->
+          <div class="col-md-4 mb-4 p-3">
+            <div class="testimonial-card">
+              <img src="./content/asstes/images/img-quote-01.jpg" alt="Customer 1" class="rounded-circle testimonial-img mb-3">
+              <h1 class="testimonial-title">Best decision ever</h1>
+              <p class="testimonial-text">Quickly deploy strategic networks with compelling e-business. Credibly pontificate highly efficient manufactured products and enabled data.</p>
+              <div class="ratings stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h2 class="company-name fw-bolder">Hotel Berg</h2>
+            </div>
+          </div>
+    
+          <!-- Customer 2 -->
+          <div class="col-md-4 mb-4 p-3">
+            <div class="testimonial-card">
+              <img src="./content/asstes/images/img-quote-02.jpg" alt="Customer 2" class="rounded-circle testimonial-img mb-3">
+              <h1 class="testimonial-title">Saved my Business</h1>
+              <p class="testimonial-text">Dynamically target high-payoff intellectual capital for customized technologies. Objectively integrate emerging core competency communities.</p>
+              <div class="ratings stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <h2 class="company-name fw-bolder">Applauz Startup</h2>
+            </div>
+          </div>
+    
+          <!-- Customer 3 -->
+          <div class="col-md-4 mb-4 p-3">
+            <div class="testimonial-card">
+              <img src="./content/asstes/images/img-quote-03.jpg" alt="Customer 3" class="rounded-circle testimonial-img mb-3">
+              <h1 class="testimonial-title">Absolutely spot-on!</h1>
+              <p class="testimonial-text">Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals.</p>
+              <div class="ratings stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <h2 class="company-name fw-bolder">HSBC Bank</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /* srartfooter */ -->
+<div id="contact" class="main h-100 mt-5 p-5">
+<div class="container h-100 ">
+<div class="row h-100">
+  <div class="col-lg-4">
+<div>
+  <small>
+    <span>contact</span> 
+    <span class="sub-color">05/08</span>
+  </small>
+  <h2 class="fw-bold">say hi to us</h2>
+</div>
+<div>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control " placeholder="your name" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="email" class="form-control " placeholder="your@company.com" aria-label="Last name">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label bg-transparent "></label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="message"></textarea>
+    </div>
+    <div class="w-100">
+      <button class="sub-bg w-100 border-radius-18 border-0 text-white" type="button">submit</button>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-8 d-flex justify-content-center">
+
+<!-- ------------------------------------- -->
+
+<div class="card w-50 shadow-lg rounded card-body-main">
+  <div class="card-body">
+    <h5 class="card-title">1340 Atwater St, Detroit, MI 48207</h5><br>
+    <div>
+      <span class="main-color"><i class="fa-solid fa-phone"></i></span> <span class="p-1 te-1"> 240-480-9600 </span>
+    </div>
+    <div>
+      <span class="main-color"><i class="fa-solid fa-envelope"></i></span > <span class="p-1 te-1">  info@company.com </span>
+    </div>
+<div class="d-flex justify-content-center">
+    <iframe class="fram mt-5 " src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html"></a>
+    </iframe>
+</div>
+</div>
+</div>
+
+<!-- -------------------------------------------- -->
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+    <!-- /* endfooter */ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="content/js/vendors/all.min.js"></script>
+    <script src="content/js/vendors/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
